@@ -41,6 +41,20 @@ h1 {
     margin: 0;
 }
 
+footer {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 60px; */
+    padding: 42px 0px 6px 0px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
 p {
     line-height: 1.8;
 }
@@ -76,6 +90,7 @@ p {
 #headshot {
     height: 200px;
     float: left;
+    vertical-align: text-top;
 }
 
 .clearfix::after {
