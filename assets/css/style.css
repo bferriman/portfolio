@@ -46,7 +46,6 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    /* height: 60px; */
     padding: 42px 0px 6px 0px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
@@ -85,6 +84,39 @@ p {
 .first-tab {
     float: right;
     margin-top: 30px;
+}
+
+.contact-form {
+    margin: 0px 0px 0px 25px;
+}
+
+input {
+    width: 910px;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=email] {
+    padding: 6px;
+    margin: 8px 0px 20px 0px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 910px;
+    height: 228px;
+    padding: 6px;
+    margin: 8px 0px 12px 0px;
+}
+
+input[type=submit] {
+    width: 112px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-bottom: 25px;
+    border: none;
+
 }
 
 #headshot {
