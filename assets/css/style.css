@@ -58,20 +58,36 @@ p {
     line-height: 1.8;
 }
 
+.row {
+    margin: 0;
+    padding: 0px 0px 25px 25px;
+    height: 150px;
+}
+
 .project {
     width: 200px;
-    margin: 10px 0px 30px 25px;
+    height: 150px;
+    margin-right: 25px;
+    float: left;
+    position: relative;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 .proj-label {
-    width: 200px;
     font-size: 20px;
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
+    width: 100%;
     padding: 12px 0px 13px 0px;
-    margin: 102px 0 px 38px 25px;
-    float: left;
+    margin: 0;
+    position: absolute;
+    bottom: 8px;
 }
 
 .logo {
