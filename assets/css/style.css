@@ -43,6 +43,14 @@ h1 {
     margin: 0;
 }
 
+#headshot {
+    height: 200px;
+    margin: 0;
+    padding: 0px 25px 0px 25px;
+    float: left;
+    vertical-align: text-top;
+}
+
 footer {
     position:fixed;
     bottom: 0;
@@ -148,12 +156,6 @@ input[type=submit] {
     margin-bottom: 25px;
     border: none;
 
-}
-
-#headshot {
-    height: 200px;
-    float: left;
-    vertical-align: text-top;
 }
 
 .clearfix::after {
