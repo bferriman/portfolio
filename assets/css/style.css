@@ -26,6 +26,7 @@ h1 {
     width: 960px;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 110px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -71,12 +72,12 @@ p {
 .row {
     margin: 0px;
     padding: 0px 0px 25px 25px;
-    height: 150px;
+    height: 213px;
 }
 
 .project {
-    width: 200px;
-    height: 150px;
+    width: 284px;
+    height: 213px;
     box-sizing: border-box;
     margin-right: 25px;
     float: left;
@@ -90,12 +91,12 @@ p {
 }
 
 .proj-label {
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
     width: 100%;
-    padding: 12px 0px 13px 0px;
+    padding: 16px 0px 16px 0px;
     margin: 0;
     position: absolute;
     bottom: 8px;
